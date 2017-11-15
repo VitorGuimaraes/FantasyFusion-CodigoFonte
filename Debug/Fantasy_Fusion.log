@@ -1,0 +1,32 @@
+﻿Build started 18/06/2014 15:29:18.
+     1>Project "D:\Users\Vitor\Desktop\Fantasy_Fusion\Fantasy_Fusion.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(362,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Users\Vitor\Desktop\Fantasy_Fusion\include /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Hero.cpp
+         Hero.cpp
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(28): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(165): warning C4715: 'Hero::getStop' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(185): warning C4715: 'Hero::getStopInverse' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(205): warning C4715: 'Hero::getVictory' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(145): warning C4715: 'Hero::drawPerson' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(225): warning C4715: 'Hero::getVictoryInverse' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(245): warning C4715: 'Hero::drawPortrait' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(406): warning C4715: 'Hero::basicAttack' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(492): warning C4715: 'Hero::magic' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(585): warning C4715: 'Hero::summon' : not all control paths return a value
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1197,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Vitor\Desktop\Fantasy_Fusion\Debug\Fantasy_Fusion.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Users\Vitor\Desktop\Fantasy_Fusion\lib "allegro-5.0.10-monolith-mt.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Vitor\Desktop\Fantasy_Fusion\Debug\Fantasy_Fusion.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Vitor\Desktop\Fantasy_Fusion\Debug\Fantasy_Fusion.lib" /MACHINE:X86 Debug\Boss.obj
+         Debug\DivineKnight.obj
+         Debug\Hero.obj
+         Debug\Main.obj
+         Debug\Monk.obj
+         Debug\Soldier.obj
+         Debug\Viera.obj
+         Fantasy_Fusion.vcxproj -> D:\Users\Vitor\Desktop\Fantasy_Fusion\Debug\Fantasy_Fusion.exe
+     1>Done Building Project "D:\Users\Vitor\Desktop\Fantasy_Fusion\Fantasy_Fusion.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.46

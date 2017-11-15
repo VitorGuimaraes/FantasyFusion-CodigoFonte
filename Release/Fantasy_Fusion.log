@@ -1,0 +1,47 @@
+﻿Build started 17/06/2014 23:19:59.
+     1>Project "D:\Users\Vitor\Desktop\Fantasy_Fusion\Fantasy_Fusion.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(362,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Users\Vitor\Desktop\Fantasy_Fusion\include /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Boss.cpp DivineKnight.cpp Hero.cpp Main.cpp Monk.cpp Soldier.cpp Viera.cpp
+         Boss.cpp
+         DivineKnight.cpp
+         Hero.cpp
+     1>Hero.cpp(28): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+         Main.cpp
+     1>Main.cpp(204): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>Main.cpp(208): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>Main.cpp(212): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>Main.cpp(216): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+         Monk.cpp
+         Soldier.cpp
+         Viera.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Vitor\Desktop\Fantasy_Fusion\Release\Fantasy_Fusion.exe" /NOLOGO /LIBPATH:D:\Users\Vitor\Desktop\Fantasy_Fusion\lib "allegro-5.0.10-monolith-mt.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Vitor\Desktop\Fantasy_Fusion\Release\Fantasy_Fusion.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Vitor\Desktop\Fantasy_Fusion\Release\Fantasy_Fusion.lib" /MACHINE:X86 /SAFESEH Release\Boss.obj
+         Release\DivineKnight.obj
+         Release\Hero.obj
+         Release\Main.obj
+         Release\Monk.obj
+         Release\Soldier.obj
+         Release\Viera.obj
+         Generating code
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(245): warning C4715: 'Hero::drawPortrait' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(225): warning C4715: 'Hero::getVictoryInverse' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(205): warning C4715: 'Hero::getVictory' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(185): warning C4715: 'Hero::getStopInverse' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(165): warning C4715: 'Hero::getStop' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(145): warning C4715: 'Hero::drawPerson' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(492): warning C4715: 'Hero::magic' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(585): warning C4715: 'Hero::summon' : not all control paths return a value
+     1>d:\users\vitor\desktop\fantasy_fusion\hero.cpp(406): warning C4715: 'Hero::basicAttack' : not all control paths return a value
+         Finished generating code
+         Fantasy_Fusion.vcxproj -> D:\Users\Vitor\Desktop\Fantasy_Fusion\Release\Fantasy_Fusion.exe
+     1>Done Building Project "D:\Users\Vitor\Desktop\Fantasy_Fusion\Fantasy_Fusion.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.73
